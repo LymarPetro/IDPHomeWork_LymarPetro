@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A9F0B1111B04F5B3005CECA5 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = A9F0B1101B04F5B3005CECA5 /* main.c */; };
+		A9F0B1191B04F5F1005CECA5 /* MamaPapaOutput.c in Sources */ = {isa = PBXBuildFile; fileRef = A9F0B1171B04F5F1005CECA5 /* MamaPapaOutput.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		A9F0B10D1B04F5B3005CECA5 /* IDPHomeWork Lesson 1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "IDPHomeWork Lesson 1"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9F0B1101B04F5B3005CECA5 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		A9F0B1171B04F5F1005CECA5 /* MamaPapaOutput.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = MamaPapaOutput.c; path = ../MamaPapaOutput.c; sourceTree = "<group>"; };
+		A9F0B1181B04F5F1005CECA5 /* MamaPapaOutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MamaPapaOutput.h; path = ../MamaPapaOutput.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +60,8 @@
 		A9F0B10F1B04F5B3005CECA5 /* IDPHomeWork Lesson 1 */ = {
 			isa = PBXGroup;
 			children = (
+				A9F0B1171B04F5F1005CECA5 /* MamaPapaOutput.c */,
+				A9F0B1181B04F5F1005CECA5 /* MamaPapaOutput.h */,
 				A9F0B1101B04F5B3005CECA5 /* main.c */,
 			);
 			path = "IDPHomeWork Lesson 1";
@@ -118,6 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9F0B1191B04F5F1005CECA5 /* MamaPapaOutput.c in Sources */,
 				A9F0B1111B04F5B3005CECA5 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
