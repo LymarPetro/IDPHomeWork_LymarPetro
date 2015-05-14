@@ -11,4 +11,6 @@
 
 #include <stdio.h>
 
+int MCLMamaPapaOutput(int value);
+
 #endif /* defined(__IDPHomeWork_Lesson_1__MamaPapaOutput__) */
