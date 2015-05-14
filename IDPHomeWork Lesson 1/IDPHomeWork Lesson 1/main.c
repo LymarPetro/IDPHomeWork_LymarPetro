@@ -9,7 +9,14 @@
 #include <stdio.h>
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    printf("Hello, World!\n");
+    printf("void size output %lu\n", sizeof(void));
+    printf("char size output %lu\n", sizeof(char));
+    printf("short int size output = %lu\n", sizeof(short int));
+    printf("float size output %lu\n", sizeof(float));
+    printf("int size output =  %lu\n",  sizeof(int));
+    printf("long int size output = %lu\n", sizeof(long int));
+    printf("double size output %lu\n", sizeof(double));
+    
+    
     return 0;
 }
