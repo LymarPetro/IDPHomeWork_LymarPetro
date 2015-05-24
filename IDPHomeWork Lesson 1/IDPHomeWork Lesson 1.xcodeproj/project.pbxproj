@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		A9F0B1111B04F5B3005CECA5 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = A9F0B1101B04F5B3005CECA5 /* main.c */; };
 		A9F0B1191B04F5F1005CECA5 /* MamaPapaOutput.c in Sources */ = {isa = PBXBuildFile; fileRef = A9F0B1171B04F5F1005CECA5 /* MamaPapaOutput.c */; };
+		A9F0B11E1B05F1E8005CECA5 /* MCLTestMamaPapa.c in Sources */ = {isa = PBXBuildFile; fileRef = A9F0B11C1B05F1E8005CECA5 /* MCLTestMamaPapa.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		A9F0B1101B04F5B3005CECA5 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		A9F0B1171B04F5F1005CECA5 /* MamaPapaOutput.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = MamaPapaOutput.c; path = ../MamaPapaOutput.c; sourceTree = "<group>"; };
 		A9F0B1181B04F5F1005CECA5 /* MamaPapaOutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MamaPapaOutput.h; path = ../MamaPapaOutput.h; sourceTree = "<group>"; };
+		A9F0B11C1B05F1E8005CECA5 /* MCLTestMamaPapa.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = MCLTestMamaPapa.c; sourceTree = "<group>"; };
+		A9F0B11D1B05F1E8005CECA5 /* MCLTestMamaPapa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCLTestMamaPapa.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,11 +63,29 @@
 		A9F0B10F1B04F5B3005CECA5 /* IDPHomeWork Lesson 1 */ = {
 			isa = PBXGroup;
 			children = (
+				A9F0B11A1B05F19C005CECA5 /* Tests */,
 				A9F0B1171B04F5F1005CECA5 /* MamaPapaOutput.c */,
 				A9F0B1181B04F5F1005CECA5 /* MamaPapaOutput.h */,
 				A9F0B1101B04F5B3005CECA5 /* main.c */,
 			);
 			path = "IDPHomeWork Lesson 1";
+			sourceTree = "<group>";
+		};
+		A9F0B11A1B05F19C005CECA5 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A9F0B11B1B05F1B4005CECA5 /* TestMamaPapa */,
+			);
+			name = Tests;
+			sourceTree = "<group>";
+		};
+		A9F0B11B1B05F1B4005CECA5 /* TestMamaPapa */ = {
+			isa = PBXGroup;
+			children = (
+				A9F0B11C1B05F1E8005CECA5 /* MCLTestMamaPapa.c */,
+				A9F0B11D1B05F1E8005CECA5 /* MCLTestMamaPapa.h */,
+			);
+			name = TestMamaPapa;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9F0B11E1B05F1E8005CECA5 /* MCLTestMamaPapa.c in Sources */,
 				A9F0B1191B04F5F1005CECA5 /* MamaPapaOutput.c in Sources */,
 				A9F0B1111B04F5B3005CECA5 /* main.c in Sources */,
 			);
@@ -241,6 +263,7 @@
 				A9F0B1161B04F5B3005CECA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,22 +7,20 @@
 //
 
 #include "MamaPapaOutput.h"
+#include "MCLTestMamaPapa.h"
 
-
-
-extern
-int MCLMamaPapaOutput(int value) {
-    if (value % 15 == 0) {
+int MCLMamaPapaOutput(int number) {
+    if (number % 15 == 0) {
         printf("mamapapa\n");
         return 15;
     }
     
-    if (value % 3 == 0) {
+    if (number % 3 == 0) {
         printf("mama\n");
         return 3;
     }
     
-    if (value % 5 == 0) {
+    if (number % 5 == 0) {
         printf("papa\n");
         return 5;
     }

@@ -8,6 +8,7 @@
 
 #include <stdio.h>
 
+#include "MCLTestMamaPapa.h"
 #include "MamaPapaOutput.h"
 
 int main(int argc, const char * argv[]) {
@@ -20,11 +21,15 @@ int main(int argc, const char * argv[]) {
 //    printf("double size output %lu\n", sizeof(double));
     
    
-    int value;
+  
     
-    scanf("%d", &value);
+//    scanf("%d", &value);
     
-    MCLMamaPapaOutput(value);
+    MCLTestMamaPapaOutput();
+    
+    MCLMamaPapaOutput(number);
+    
+    
     
     return 0;
 }

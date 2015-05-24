@@ -11,6 +11,11 @@
 
 #include <stdio.h>
 
-int MCLMamaPapaOutput(int value);
+int MCLMamaPapaOutput(int number);
+
+void MCLTestMamaPapaOutput(void);
+
+static
+int number;
 
 #endif /* defined(__IDPHomeWork_Lesson_1__MamaPapaOutput__) */
