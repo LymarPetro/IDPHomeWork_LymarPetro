@@ -11,4 +11,14 @@
 
 #include <stdio.h>
 
+#define MCLFunctionTypeOutput(type, specifier) \
+    static void output_##type(type value) { \
+    printf(#type "Type value - " #specifier "\n", value);\
+    }
+
+#define MCLCallFirstMacros(type, value)\
+     output_##type(value);
+
+
+
 #endif /* defined(__MCLMacros__MCLMacrosVarTypeOutput__) */

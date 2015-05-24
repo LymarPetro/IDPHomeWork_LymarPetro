@@ -11,4 +11,7 @@
 
 #include <stdio.h>
 
+extern
+void MCLPrimitiveTypesOutputTest(void);
+
 #endif /* defined(__MCLMacros__MCLPrimitiveTypesOutputTests__) */
