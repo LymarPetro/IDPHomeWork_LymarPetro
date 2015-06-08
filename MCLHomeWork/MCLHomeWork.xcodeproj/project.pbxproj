@@ -8,6 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		A94E854E1B233B3600FF942E /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = A94E854D1B233B3600FF942E /* main.c */; };
+		A9DAF6A31B23620000DD09B7 /* MCLHuman.c in Sources */ = {isa = PBXBuildFile; fileRef = A9DAF6A11B23620000DD09B7 /* MCLHuman.c */; };
+		A9DAF6D81B25856A00DD09B7 /* MCLObject.c in Sources */ = {isa = PBXBuildFile; fileRef = A9DAF6D61B25856A00DD09B7 /* MCLObject.c */; };
+		A9DAF6DC1B2585AB00DD09B7 /* MCLString.c in Sources */ = {isa = PBXBuildFile; fileRef = A9DAF6DA1B2585AB00DD09B7 /* MCLString.c */; };
+		A9DAF6E01B2585F400DD09B7 /* MCLArray.c in Sources */ = {isa = PBXBuildFile; fileRef = A9DAF6DE1B2585F400DD09B7 /* MCLArray.c */; };
+		A9DAF6EA1B25887600DD09B7 /* MCLTestMacros.c in Sources */ = {isa = PBXBuildFile; fileRef = A9DAF6E81B25887600DD09B7 /* MCLTestMacros.c */; };
+		A9DAF6ED1B2588AA00DD09B7 /* MCLArrayTest.c in Sources */ = {isa = PBXBuildFile; fileRef = A9DAF6EB1B2588AA00DD09B7 /* MCLArrayTest.c */; };
+		A9DAF6F01B2588C400DD09B7 /* MCLStringTest.c in Sources */ = {isa = PBXBuildFile; fileRef = A9DAF6EE1B2588C400DD09B7 /* MCLStringTest.c */; };
+		A9DAF6F31B25890800DD09B7 /* MCLHumanTest.c in Sources */ = {isa = PBXBuildFile; fileRef = A9DAF6F11B25890800DD09B7 /* MCLHumanTest.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +33,22 @@
 /* Begin PBXFileReference section */
 		A94E854A1B233B3600FF942E /* MCLHomeWork */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MCLHomeWork; sourceTree = BUILT_PRODUCTS_DIR; };
 		A94E854D1B233B3600FF942E /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		A9DAF6A11B23620000DD09B7 /* MCLHuman.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = MCLHuman.c; path = Human/MCLHuman.c; sourceTree = "<group>"; };
+		A9DAF6A21B23620000DD09B7 /* MCLHuman.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MCLHuman.h; path = Human/MCLHuman.h; sourceTree = "<group>"; };
+		A9DAF6D61B25856A00DD09B7 /* MCLObject.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = MCLObject.c; sourceTree = "<group>"; };
+		A9DAF6D71B25856A00DD09B7 /* MCLObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCLObject.h; sourceTree = "<group>"; };
+		A9DAF6DA1B2585AB00DD09B7 /* MCLString.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = MCLString.c; sourceTree = "<group>"; };
+		A9DAF6DB1B2585AB00DD09B7 /* MCLString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCLString.h; sourceTree = "<group>"; };
+		A9DAF6DE1B2585F400DD09B7 /* MCLArray.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = MCLArray.c; sourceTree = "<group>"; };
+		A9DAF6DF1B2585F400DD09B7 /* MCLArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCLArray.h; sourceTree = "<group>"; };
+		A9DAF6E81B25887600DD09B7 /* MCLTestMacros.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = MCLTestMacros.c; sourceTree = "<group>"; };
+		A9DAF6E91B25887600DD09B7 /* MCLTestMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCLTestMacros.h; sourceTree = "<group>"; };
+		A9DAF6EB1B2588AA00DD09B7 /* MCLArrayTest.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = MCLArrayTest.c; sourceTree = "<group>"; };
+		A9DAF6EC1B2588AA00DD09B7 /* MCLArrayTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCLArrayTest.h; sourceTree = "<group>"; };
+		A9DAF6EE1B2588C400DD09B7 /* MCLStringTest.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = MCLStringTest.c; sourceTree = "<group>"; };
+		A9DAF6EF1B2588C400DD09B7 /* MCLStringTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCLStringTest.h; sourceTree = "<group>"; };
+		A9DAF6F11B25890800DD09B7 /* MCLHumanTest.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = MCLHumanTest.c; sourceTree = "<group>"; };
+		A9DAF6F21B25890800DD09B7 /* MCLHumanTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCLHumanTest.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +81,117 @@
 		A94E854C1B233B3600FF942E /* MCLHomeWork */ = {
 			isa = PBXGroup;
 			children = (
+				A9DAF6E71B25883B00DD09B7 /* Shared */,
+				A9DAF6E21B25868700DD09B7 /* Source */,
+				A9DAF6E11B25865C00DD09B7 /* Tests */,
 				A94E854D1B233B3600FF942E /* main.c */,
 			);
 			path = MCLHomeWork;
+			sourceTree = "<group>";
+		};
+		A9DAF6A01B2361A400DD09B7 /* Human */ = {
+			isa = PBXGroup;
+			children = (
+				A9DAF6A11B23620000DD09B7 /* MCLHuman.c */,
+				A9DAF6A21B23620000DD09B7 /* MCLHuman.h */,
+			);
+			name = Human;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		A9DAF6D51B25852800DD09B7 /* Object */ = {
+			isa = PBXGroup;
+			children = (
+				A9DAF6D61B25856A00DD09B7 /* MCLObject.c */,
+				A9DAF6D71B25856A00DD09B7 /* MCLObject.h */,
+			);
+			name = Object;
+			path = ../Object;
+			sourceTree = "<group>";
+		};
+		A9DAF6D91B25857900DD09B7 /* String */ = {
+			isa = PBXGroup;
+			children = (
+				A9DAF6DA1B2585AB00DD09B7 /* MCLString.c */,
+				A9DAF6DB1B2585AB00DD09B7 /* MCLString.h */,
+			);
+			name = String;
+			path = ../String;
+			sourceTree = "<group>";
+		};
+		A9DAF6DD1B2585B900DD09B7 /* Array */ = {
+			isa = PBXGroup;
+			children = (
+				A9DAF6DE1B2585F400DD09B7 /* MCLArray.c */,
+				A9DAF6DF1B2585F400DD09B7 /* MCLArray.h */,
+			);
+			name = Array;
+			path = ../Array;
+			sourceTree = "<group>";
+		};
+		A9DAF6E11B25865C00DD09B7 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A9DAF6E61B2587C300DD09B7 /* ArrayTest */,
+				A9DAF6E51B2587A600DD09B7 /* StringTest */,
+				A9DAF6E41B25876E00DD09B7 /* ObjectTest */,
+				A9DAF6E31B25874300DD09B7 /* HumanTest */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		A9DAF6E21B25868700DD09B7 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				A9DAF6A01B2361A400DD09B7 /* Human */,
+				A9DAF6D51B25852800DD09B7 /* Object */,
+				A9DAF6D91B25857900DD09B7 /* String */,
+				A9DAF6DD1B2585B900DD09B7 /* Array */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		A9DAF6E31B25874300DD09B7 /* HumanTest */ = {
+			isa = PBXGroup;
+			children = (
+				A9DAF6F11B25890800DD09B7 /* MCLHumanTest.c */,
+				A9DAF6F21B25890800DD09B7 /* MCLHumanTest.h */,
+			);
+			path = HumanTest;
+			sourceTree = "<group>";
+		};
+		A9DAF6E41B25876E00DD09B7 /* ObjectTest */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ObjectTest;
+			sourceTree = "<group>";
+		};
+		A9DAF6E51B2587A600DD09B7 /* StringTest */ = {
+			isa = PBXGroup;
+			children = (
+				A9DAF6EE1B2588C400DD09B7 /* MCLStringTest.c */,
+				A9DAF6EF1B2588C400DD09B7 /* MCLStringTest.h */,
+			);
+			path = StringTest;
+			sourceTree = "<group>";
+		};
+		A9DAF6E61B2587C300DD09B7 /* ArrayTest */ = {
+			isa = PBXGroup;
+			children = (
+				A9DAF6EB1B2588AA00DD09B7 /* MCLArrayTest.c */,
+				A9DAF6EC1B2588AA00DD09B7 /* MCLArrayTest.h */,
+			);
+			path = ArrayTest;
+			sourceTree = "<group>";
+		};
+		A9DAF6E71B25883B00DD09B7 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				A9DAF6E81B25887600DD09B7 /* MCLTestMacros.c */,
+				A9DAF6E91B25887600DD09B7 /* MCLTestMacros.h */,
+			);
+			path = Shared;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,6 +251,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				A94E854E1B233B3600FF942E /* main.c in Sources */,
+				A9DAF6ED1B2588AA00DD09B7 /* MCLArrayTest.c in Sources */,
+				A9DAF6DC1B2585AB00DD09B7 /* MCLString.c in Sources */,
+				A9DAF6F01B2588C400DD09B7 /* MCLStringTest.c in Sources */,
+				A9DAF6F31B25890800DD09B7 /* MCLHumanTest.c in Sources */,
+				A9DAF6A31B23620000DD09B7 /* MCLHuman.c in Sources */,
+				A9DAF6EA1B25887600DD09B7 /* MCLTestMacros.c in Sources */,
+				A9DAF6E01B2585F400DD09B7 /* MCLArray.c in Sources */,
+				A9DAF6D81B25856A00DD09B7 /* MCLObject.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,6 +375,7 @@
 				A94E85531B233B3600FF942E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
