@@ -14,7 +14,7 @@
 extern
 void MCLTestMamaPapaOutput(void);
 
-int MCLMamaPapaOutput(int number);
+
 
 
 

@@ -11,4 +11,26 @@
 
 #include <stdio.h>
 
+typedef void (*MCLObjectDeallocarorPtr) (void *);
+
+typedef struct {
+    uint64_t _referenceCount;
+    MCLObjectDeallocarorPtr _deallocator;
+} MCLObject;
+
+extern
+void *__MCLObjectCreate(size_t objectSize, MCLObjectDeallocarorPtr _deallocator);
+
+extern
+void MCLObjectRetain(void *object);
+
+extern
+uint64_t MCLObjectGetReferenceCount(void *object);
+
+extern
+void MCLObjectRelease(void);
+
+extern
+void MCLObjectDeallocate(void *object);
+
 #endif /* defined(__MCLHomeWork__MCLObject__) */

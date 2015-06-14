@@ -9,5 +9,9 @@
 #ifndef MCLHomeWork_MCLObjectMacros_h
 #define MCLHomeWork_MCLObjectMacros_h
 
+#define MCLObjectCreateOfType(type) \
+MCLObjectCreate(size_t(type), (MCLObjectDeallocatorPtr)__##type##deallocator)
+
+
 
 #endif

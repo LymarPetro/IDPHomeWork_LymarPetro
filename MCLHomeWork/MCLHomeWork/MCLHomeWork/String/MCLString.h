@@ -11,4 +11,17 @@
 
 #include <stdio.h>
 
+#include "MCLObject.h"
+
+typedef struct MCLString{
+    MCLObject _genes;
+    
+    size_t _size;
+    char *cString;
+} MCLString;
+
+extern
+void MCLCreateStringWithStrind(char *text)
+
+
 #endif /* defined(__MCLHomeWork__MCLString__) */

@@ -13,7 +13,7 @@
 void MCLTestMamaPapaOutput(void) {
     for (int a = 0; a < 1000; a++) {
         printf("Number of iteration %d\n", a);
-        int b = MCLMamaPapaOutput(a);
+        int b = MCLMamaPapaOutput();
         printf("%d\n", b);
     }
     
